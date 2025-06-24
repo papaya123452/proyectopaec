@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // Conexión a MongoDB Atlas
-const MONGO_URI = 'mongodb+srv://usuario:password@cluster0.egy6wky.mongodb.net/Reciclaje_Escuela?retryWrites=true&w=majority';
+const MONGO_URI = 'mongodb+srv://rosalesvazquezsantiago46:1234@cluster0.egy6wky.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log('✅ Conectado a MongoDB Atlas'))
